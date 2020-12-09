@@ -111,7 +111,7 @@ img{
 .imgbox:last-child{
 }
 
-.imgbox img{
+.imgbox div{
   max-width: 50%;
   flex: 50%;
   padding: 10px;
@@ -126,6 +126,10 @@ img{
 }
 #web, #graphic, #drive, .hidden{
   display:none;
+}
+
+footer{
+  padding: 20px;
 }
 
 @media only screen and (max-width: 50em){
