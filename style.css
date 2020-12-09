@@ -56,6 +56,10 @@ h3{
   text-indent: 2em;
 }
 
+nav{
+  padding-top: 10px;
+}
+
 nav a, nav a:active, nav a:visited{
   color: black;
 }
