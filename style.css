@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cousine&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Cousine', monospace;
+  background-color: #fff1c9;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box{
+  display:flex;
+  flex-direction: column;
+  height: 100%;
+  width: 80%;
+}
+
+header{
+  padding-top: 10%;
+  align-self: left;
+}
+
+#textbox{
+  padding-top: 20px;
+  align-self: left;
+  line-height: 1.5em;
+}
+
+h1{
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 5em;
+  letter-spacing: 5px;
+}
+
+h1 a, h1 a:active, h1 a:visited{
+  color: black;
+  text-decoration: none;
+
+}
+
+h1 a:hover{
+  text-decoration: line-through;
+}
+
+h3{
+  font-style: italic;
+  text-indent: 2em;
+}
+
+nav a, nav a:active, nav a:visited{
+  color: black;
+}
+
+nav a:hover{
+  color: grey;
+}
+
+a, a:active, a:visited{
+  color: black;
+}
+
+a:hover{
+  color: grey;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+nav div{
+  margin: 10px;
+}
+
+section{
+  padding-bottom: 20px;
+}
+
+.visual{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+img{
+  width: 100%;
+  padding: 10px;
+}
+
+.imgbox{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.imgbox:last-child{
+}
+
+.imgbox img{
+  max-width: 50%;
+  flex: 50%;
+  padding: 10px;
+  align-self: center;
+}
+.link {
+  text-decoration: underline;
+}
+.link:hover{
+  color: grey;
+  cursor: pointer;
+}
+#web, #graphic, #drive, .hidden{
+  display:none;
+}
