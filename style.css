@@ -8,6 +8,7 @@
 body{
   font-family: 'Cousine', monospace;
   background-color: #fff1c9;
+  word-wrap: break-word;
 }
 
 .container{
