@@ -131,6 +131,9 @@ img{
 #web, #graphic, #drive, .hidden{
   display:none;
 }
+#kubide{
+  text-decoration: none;
+}
 
 footer{
   padding: 20px;
