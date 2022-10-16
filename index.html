@@ -3,8 +3,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link href='https://css.gg/arrow-right.css' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
     <title>Bela Kochkarova</title>
+
+    <script src="https://kit.fontawesome.com/8acce9e8c6.js" crossorigin="anonymous"></script>
 
     <meta name="description" content="Bela Kochkarova portfolio">
     <meta name="keywords" content="Bela Kochkarova, portfolio, NYU">
@@ -37,12 +42,12 @@
 
   <body>
     <nav>
-      <div><a href="visual.html">web/visual</a></div>
+      <div><a href="#work">web/visual</a></div>
       <div><a href="https://github.com/belaburrito" target="_blank">github</a></div>
       <div><a href="https://www.linkedin.com/in/bela-kochkarova" target="_blank">linkedin</a></div>
-      <div><a href="BelaResume.pdf" target="_blank">resume</a></div>
+      <div><a href="pdf/ResumeCute.pdf" target="_blank">resume</a></div>
     </nav>
-    <div class="container">
+    <div class="container" id="top">
       <div class="box">
         <header>
           <h1><a href="index.html">Bela Garrido Kochkarova.</a></h1>
@@ -51,13 +56,75 @@
 
         <div id="textbox">
           <p>Welcome!<p>
-          <p>My name is Bela. I graduated in May, 2022 from <b>New York University</b> with a bachelor's in <b>computer science</b>. I'm currently based in <b>Granada, Spain</b>, working remotely as a <b>Google Cloud Platform Tech Support Engineer</b>! Navigate using the links above to see what I've been working on.</p>
+          <p>My name is Bela. I graduated in May, 2022 from <b>New York University</b> with a bachelor's in <b>computer science</b>. I'm currently based in <b>Granada, Spain</b>, working remotely as a <b>Google Cloud Platform Tech Support Engineer</b>! My goal is to keep learning more about web technologies and design.</p>
+        </div>
+
+      </div>
+
+      <div class="widebox">
+        
+        <div class="pics"  id="work">
+          <div class="white">            
+            <a href="pigeon.html"><h2>Pigeon <i class="fa-solid fa-arrow-right-long"></i></h2></a>
+
+            <img class="hideme preview" src="img/pigeon-found.png">
+          </div>
+          <div class="red">
+            <img class="hideme" src="img/pigeonpromo.webp">
+          </div>
+        </div>
+
+        <!--<p><i>Pigeon</i> is a collectible card game developed by Juggler's Mistake, an art collective based in London. </p><br>
+
+        <p>Posters of all 52 <i>Pigeon</i> cards will be posted around the streets, accompanied by a QR code. 
+          Scanning the QR code allows you to digitally "collect" the card. If a user scans all the QR codes, 
+          they are mailed a physical pack of <i>Pigeon</i> cards.</p><br>
+
+        <p><i>Currently under construction.</i> You can check out my progress here:</p>-->
+
+        <div class="plague">
+          <div class="hideme plaguemedia">
+            <video autoplay muted loop>
+              <source src="img/spirituality.webm" type="video/webm">
+            Your browser does not support the video tag.
+            </video>
+            <a href="plague.html"><h2>Plague Magazine <i class="fa-solid fa-arrow-right-long"></i></h2></a>
+          </div>
+        </div>
+
+        <div class="boombox">
+          <div class="hideme boomboxmedia">
+            <video autoplay muted loop>
+              <source src="img/boombox.webm" type="video/webm">
+            Your browser does not support the video tag.
+            </video>
+            <a href="boombox.html"><h2>Boombox<i class="fa-solid fa-arrow-right-long"></i></h2></a>
+          </div>
+        </div>
+
+        <div class="etc">
+          <div class="etcsub">
+            <h2>Kubide Front End Developer Intern</h2>
+            <div class="arrow"><a href="kubide.html"><i class="fa-solid fa-arrow-right-long"></i></a></div>
+          </div>
+
+          <div class="etcsub">
+            <h2>Take Home Tests</h2>
+
+            <div class="arrow"><a href="test.html"><i class="fa-solid fa-arrow-right-long"></i></a></div>
+  
+        </div>
+
+          <div class="etcsub">
+            <h2>Graphic Design</h2>
+            <div class="arrow"><a href="graphic.html"><i class="fa-solid fa-arrow-right-long"></i></a></div>
+          </div>
         </div>
 
       </div>
     </div>
 
-    <footer></footer>
+    <footer><a href="#top">Back to top</a></footer>
 
   </body>
 
