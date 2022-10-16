@@ -386,4 +386,12 @@ footer{
     border: none;
   }
 
+  .boxdetails img{
+    width: 100%;
+  }
+
+  .boxdetails h1{
+    margin-bottom: 1em;
+  }
+
 }
