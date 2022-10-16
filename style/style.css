@@ -150,11 +150,8 @@ body{
 
 }
 
-a:cli
-
-.preview, .hideme video{
+.white img, video{
   border-radius: 20px;
-  width: 100%;
   padding: 0px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
