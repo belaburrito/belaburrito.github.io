@@ -82,6 +82,7 @@ body{
   border: solid 5px black;
   border-radius: 20px;
   width: 90%;
+  padding: 0;
 }
 
 .plague{
@@ -151,7 +152,7 @@ body{
 
 a:cli
 
-.preview, video{
+.preview, .hideme video{
   border-radius: 20px;
   width: 100%;
   padding: 0px;
@@ -312,6 +313,7 @@ footer{
 .hideme
 {
     opacity:0;
+    
 }
 
 @media only screen and (max-width: 50em){
@@ -340,6 +342,10 @@ footer{
   .plague, .boombox{
     height: auto;
     padding: 3em 0em;
+  }
+
+  video{
+    display: none;
   }
 
 
