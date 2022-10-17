@@ -11,9 +11,116 @@ html{
 
 body{
   font-family: 'Cousine', monospace;
-  background-color: white;
+  background-color: #E0E4DF;
   word-wrap: break-word;
 }
+
+.w-container{
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  margin: 160px 90px 0px 90px;
+}
+
+header{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  padding: 90px 50px 0px 50px;
+}
+
+#textbox{
+  grid-column-start: 1;
+  grid-column-end: 3;  
+  line-height: 1.5em;
+  padding: 0px 0px 90px 50px;
+}
+
+.w-container-border{
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  margin: 90px 90px 160px 90px;
+  border: solid 2px black;
+}
+
+.heading{
+  flex-direction: row;
+}
+
+.heading-large{
+  font-size: 5em;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  justify-self: start;
+}
+
+.number-offset{
+  grid-column-start: 1;
+  grid-column-end: 1;
+  font-size: 1em;
+}
+
+.workgrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin: 0px 100px 100px 100px;
+}
+
+.work{
+}
+
+.worktext a{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 20px;
+}
+
+.worktext h2{
+  font-size: 3em;
+  font-family: 'Cousine', monospace;
+  text-decoration: none;
+}
+
+.experience-body{
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 0px 50px;
+  border-bottom: solid 2px black;
+}
+
+.list-item{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  margin-bottom: 32px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgba(0,0,0,.08);
+}
+
+.divider{
+  background-color: black;
+  height: 2px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  margin: 50px 0px;
+}
+
+.list-item h3{
+  font-family: 'Cousine', monospace;
+  font-style:normal;
+  text-indent: 0em;
+  font-size: 2em;
+}
+
+body a{
+  text-decoration: none;
+}
+
 
 .container{
   display: flex;
@@ -168,16 +275,18 @@ body{
   width: 50%;
 }
 
+/*
 header{
   align-self: left;
   width: 100%;
-}
-
+}*/
+/*
 #textbox{
   padding-top: 20px;
   align-self: left;
   line-height: 1.5em;
-}
+  width: 60%;
+}*/
 
 h1{
   font-family: 'Alfa Slab One', serif;
@@ -264,7 +373,6 @@ section{
 
 img{
   width: 100%;
-  padding: 10px;
 }
 
 .imgbox{
@@ -345,7 +453,6 @@ footer{
     display: none;
   }
 
-
   .white{
     width: 100%;
     padding: 2em 0em;
@@ -391,4 +498,15 @@ footer{
     margin-bottom: 1em;
   }
 
+  .workgrid{
+    grid-template-columns: 1fr;
+  }
+
+  #textbox{
+    grid-column-end: 4;
+  }
+
+  .heading-large{
+    font-size: 4em;
+  }
 }
