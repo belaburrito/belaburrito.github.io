@@ -76,6 +76,10 @@ header{
   flex: 45%;
 }
 
+.workgrid>:last-child{
+  visibility: hidden;
+}
+
 .worktext a{
   display: flex;
   flex-direction: column;
