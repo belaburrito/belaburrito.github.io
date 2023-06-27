@@ -76,9 +76,9 @@ header{
   flex: 45%;
 }
 
-.workgrid>:last-child{
+/*.workgrid>:last-child{
   visibility: hidden;
-}
+}*/
 
 .worktext a{
   display: flex;
